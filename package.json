@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "concurrently \"next dev\" \"sass sass/main.scss styles/globals.css\"",
+    "dev": "concurrently \"next dev\" \"sass sass/main.scss styles/globals.css -w\"",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
